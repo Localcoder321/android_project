@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">MyHelloWorld</string>
-    <string name = "detailed_view_budget_label">
+    <string name="detailed_view_budget_label">
         Budget: \u0024%1$d million
     </string>
+    <string name="title_activity_list">ListActivity</string>
 </resources>

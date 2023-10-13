@@ -46,7 +46,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    DetailedView(movie)
+                    MoviesList(movies)
                 }
             }
         }
@@ -54,7 +54,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun DetailedView(movie: Movie) {
+private fun DetailedView(movie: Movie) {
     Column(
         modifier = Modifier
             .fillMaxWidth()
